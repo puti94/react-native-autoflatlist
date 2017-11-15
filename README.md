@@ -7,7 +7,7 @@
    ```
 - 使用:
    ```
-   import AutoFlatList from 'react-native-autoflatlist'
+       import AutoFlatList from 'react-native-autoflatlist'
    ```
 
    ```
@@ -47,8 +47,7 @@
             />
         );
     }
-
-```
+  ```
 
 ## Props
 | Prop | Type | Default | Note |
