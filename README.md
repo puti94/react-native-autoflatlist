@@ -52,7 +52,7 @@
 ## Props
 | Prop | Type | Default | Note |
 |---|---|---|---|
-| [FlatList props...](https://facebook.github.io/react-native/docs/FlatList.html) |  |  | SearchInput 组件继承 View 组件的全部属性。
+| [FlatList props...](https://facebook.github.io/react-native/docs/FlatList.html) |  |  |  组件继承 FlatList 组件的全部属性。
 | style | 同View.style |  | 组件样式, 也就是组件的容器 View 的样式。
 | refreshEnable | bool | true | 是否能下拉刷新
 | loadMoreEnable | bool | false | 是否能上拉加载
