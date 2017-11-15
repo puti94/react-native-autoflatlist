@@ -48,6 +48,7 @@
         );
     }
   ```
+  ![效果图](https://github.com/puti94/react-native-autoflatlist/blob/master/1.gif)
 
 ## Props
 | Prop | Type | Default | Note |
