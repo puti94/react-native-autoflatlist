@@ -1,0 +1,20 @@
+{
+  "name": "react-native-autoflatlist",
+  "version": "0.0.4",
+  "description": "一个自动处理了上拉下拉刷新，回调分页页码，并提供一个空视图的FlatList组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puti94/react-native-autoflatlist.git"
+  },
+  "author": "菩提",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puti94/react-native-autoflatlist/issues"
+  },
+  "homepage": "https://github.com/puti94/react-native-autoflatlist#readme",
+  "dependencies": {}
+}
