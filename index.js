@@ -29,7 +29,9 @@ export default class AutoFlatList extends Component {
         emptyButtonTitle: PropTypes.string,
         emptyOnPress: PropTypes.func,
         noMoreDataSize:PropTypes.number,
-        emptyView:PropTypes.element
+        emptyView:PropTypes.element,
+        noMoreView:PropTypes.element,
+        loadMoreView:PropTypes.element
     };
 
     static defaultProps = {
@@ -68,7 +70,7 @@ export default class AutoFlatList extends Component {
      * @returns {XML}
      */
     renderEmpty() {
-        if (!this.props.emptyView){
+        if (this.props.emptyView){
             return this.props.emptyView
         }
 
@@ -142,11 +144,13 @@ export default class AutoFlatList extends Component {
     }
 
     renderLoadMoreView() {
-        if (!this.props.loadMoreEnable || this.state.data.length === 0 || !this.state.loadMoreing) return;
+        if (!this.props.loadMoreEnable || this.state.data.length === 0) return;
         if (this.state.isNoMoreData) {
-            return <Text style={{alignSelf: 'center'}}>没有更多数据</Text>
+            if (this.props.noMoreView) return this.props.noMoreView
+            return <Text style={{alignSelf: 'center',height:40}}>没有更多数据</Text>
         }
         if (this.state.loadMoreing) {
+            if (this.props.loadMoreView) return this.props.loadMoreView
             return <View
                 style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center', flex: 1, height: 50}}>
                 <ActivityIndicator/>

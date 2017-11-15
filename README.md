@@ -59,7 +59,9 @@
 | netWork | func |  | 数据加载方法,会传一个page,需要回传一个Promise,resolve需要传入一个数组
 | emptyButtonTitle | string | '重新加载' | 空视图按钮的文字
 | emptyOnPress | func |  | 默认提供空视图的按钮点击事件，不传则执行onRefresh方法
-| emptyView | element |  | 覆盖原有的空视图
+| emptyView | element |  | 覆盖原有的空视图组件
+| noMoreView | element |  | 覆盖原有的没有更多数据的组件
+| loadMoreView | element |  | 覆盖原有的上拉加载组件
 
 ## Events
 | Event Name | Returns | Notes |
