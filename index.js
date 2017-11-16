@@ -2,7 +2,7 @@
  * User: puti.
  * Time: 2017/11/15 下午1:45.
  * GitHub:https://github.com/puti94
- * Email:guoquanxie@foxmail.com
+ * Email:1059592160@qq.com
  */
 
 import React, {Component} from 'react';
