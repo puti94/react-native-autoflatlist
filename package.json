@@ -1,6 +1,6 @@
 {
   "name": "react-native-autoflatlist",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "一个自动处理了上拉下拉刷新，回调分页页码，并提供一个空视图的FlatList组件",
   "main": "index.js",
   "scripts": {
