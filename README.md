@@ -1,5 +1,6 @@
 # react-native-autoflatlist
 一个自动上拉下拉提供分页加载的FlatList组件
+!基于最新版写的，在低版本下可能某些方法有Bug,如0.44.3的FlatList的ListFooterComponent这个方法有问题。注释掉即可（上拉过程的状态显示就没有了）
 
 - 安装:
    ```
@@ -10,8 +11,8 @@
        import AutoFlatList from 'react-native-autoflatlist'
    ```
 
-   ```
-    /**
+   ```javascript
+    /**
      * 模拟从网络上加载数据
      * @param page
      * @returns {Promise}
